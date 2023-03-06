@@ -1,0 +1,33 @@
+{
+  "name": "mdn-translation-guide",
+  "version": "0.0.1",
+  "description": "このリポジトリは、翻訳作業の手順を Git Page 化するためのリポジトリです。",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx honkit init",
+    "start": "npx honkit serve",
+    "build": "npx honkit build",
+    "publish": "gh-pages -d _book -m 'Auto publish book'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-japan/mdn-translation-guide.git"
+  },
+  "keywords": [
+    "mdn",
+    "translate"
+  ],
+  "author": "MDN translate community",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/mozilla-japan/mdn-translation-guide/issues"
+  },
+  "homepage": "https://github.com/mozilla-japan/mdn-translation-guide#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "honkit": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
